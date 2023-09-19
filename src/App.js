@@ -9,7 +9,6 @@ const App = () => {
   const [milliseconds, setMilliseconds] = useState(0);
 
   const startTimer = () => {
-    console.log('started');
     setIsRunning(true);
   };
 
