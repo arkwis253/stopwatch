@@ -1,0 +1,17 @@
+@import '../../styles/settings.scss';
+
+.container {
+    min-width: 100vw;
+    min-height: 100vh;
+    background: $color-dark;
+    color: $color-light;
+    text-align: center;
+    position: relative;
+
+    span {
+        position:absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

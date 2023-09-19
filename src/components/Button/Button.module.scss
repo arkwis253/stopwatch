@@ -1,0 +1,17 @@
+@import '../../styles/settings.scss';
+
+.btn {
+    padding: 20px;
+    background: $color-btn;
+    color: $color-light;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-radius: $radius;
+    font-size: 24px;
+    margin: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background: #26de82be;
+    }
+}
